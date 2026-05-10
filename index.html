@@ -39,9 +39,40 @@
     <input id="soKw" type="number" placeholder="Nhập số kw" />
     <button id="btnTinhTienDien">Tính tiền điện</button>
     <div id="showInfo_2"></div>
+    <hr />
+
+    <!-- TÍNH THUẾ THU NHẬP CÁ NHÂN -->
+    <h3>Bài tập 3 - Tính thuế thu nhập cá nhân</h3>
+    <input id="hoTen_2" type="text" placeholder="Nhập họ tên" />
+    <input id="tongThuNhap" type="number" placeholder="Tổng thu nhập/ năm" />
+    <input
+      id="soNguoiPhuThuoc"
+      type="number"
+      placeholder="Số người phụ thuộc"
+    />
+    <button id="tinhTienThue">Tính tiền thuế</button>
+    <div id="showInfo_3"></div>
+    <hr />
+
+    <!-- TÍNH TIỀN CÁP -->
+    <h3>Bài tập 4 - Tính tiền cáp</h3>
+    <select id="loaiKhachHang" onchange="chonLoaiKhachHang()">
+      <option value="">--Chọn loại khác--</option>
+      <option value="ND">Nhà Dân</option>
+      <option value="DN">Doanh Nghiệp</option>
+    </select>
+    <input id="maKhachHang" type="text" placeholder="Mã khách hàng" />
+    <input id="soKenh" type="number" placeholder="Số kênh cao cấp" />
+    <div id="groupKetNoi" style="display: none">
+      <input id="soKetNoi" type="number" placeholder="Số kết nối" />
+    </div>
+    <button id="tinhTienCap">Tính tiền cáp</button>
+    <div id="showInfo_4"></div>
 
     <!-- SCRIPT-JS -->
     <!-- <script src="./js/bt1.js"></script> -->
-    <script src="./js/bt2.js"></script>
+    <!-- <script src="./js/bt2.js"></script> -->
+    <!-- <script src="./js/bt3.js"></script> -->
+    <script src="./js/bt4.js"></script>
   </body>
 </html>
